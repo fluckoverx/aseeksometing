@@ -1,0 +1,157 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+
+section
+
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.box
+{
+    margin: auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+.container-calendar
+{
+    position: relative;
+    width: 150px;
+    min-height: 200px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255,0.5);
+    border-right: 1px solid rgba(255, 255, 255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+#dycalender
+{
+    width: 100%;
+    padding: 20px;
+}
+#dycalender table
+{
+    width: 100%;
+    margin-top: 40px;   
+}
+#dycalendar table
+{
+    width: 100%;
+    margin-top: 50px;
+    border-spacing: 5px;
+}
+#dycalendar table tr:nth-child(1) td
+{
+    background: #ffffff;
+    color: #111;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight:bold;
+}
+#dycalendar table td
+{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+#dycalendar table td:hover
+{
+    background: #fff;
+    color: #111 !important;
+}
+.dycalendar-month-container .dycalendar-today-date, .dycalendar-month-container .dycalendar-target-date
+{
+    background: #ffffff;
+    color: #111 !important;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn
+{
+    background: #fff;
+    color: #111;
+    width: 30px;
+    height: auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn
+{
+    background: #fff;
+    color: #111;
+    width: 30px;
+    height: auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.dycalendar-month-container .dycalendar-header
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.dycalendar-day-container {
+    
+    padding : 10px;
+    text-align : center;
+    font-family : Arial;
+}
+
+.dycalendar-day-container div{
+    color: #fff;
+    padding : 0;
+    margin-bottom : 10px;
+}
+
+.dycalendar-day-container .dycalendar-span-day {
+    color: #fff;
+    font-size : 110%;
+}
+
+.dycalendar-day-container .dycalendar-span-date {
+    color: #fff;
+    font-size : 250%;
+}
+
+.dycalendar-day-container .dycalendar-span-month-year {
+    color: #fff;
+    font-size : 90%
+}</style>
+<!-- end Simple Custom CSS and JS -->
